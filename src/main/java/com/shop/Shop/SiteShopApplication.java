@@ -10,14 +10,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 public class SiteShopApplication {
 
 	public static void main(String[] args) {
-
 		ConfigurableApplicationContext configurableApplicationContext = SpringApplication.run(SiteShopApplication.class, args);
-
-		BikeRepository bikeRepository = configurableApplicationContext.getBean(BikeRepository.class);
-
-		Bike bike1 = new Bike("qwe" ,"ewq");
-
-		bikeRepository.save(bike1);
 
 	}
 
