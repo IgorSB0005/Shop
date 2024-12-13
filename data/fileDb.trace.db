@@ -1,0 +1,24 @@
+2024-12-13 17:28:35.028771+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "create table [*]user (id bigint not null, email varchar(255) not null, password varchar(255) not null, username varchar(255) not null, primary key (id))"; ожидалось "identifier"
+Syntax error in SQL statement "create table [*]user (id bigint not null, email varchar(255) not null, password varchar(255) not null, username varchar(255) not null, primary key (id))"; expected "identifier"; SQL statement:
+create table user (id bigint not null, email varchar(255) not null, password varchar(255) not null, username varchar(255) not null, primary key (id)) [42001-224]
+2024-12-13 17:30:05.762265+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "create table [*]user (id bigint not null, email varchar(255) not null, password varchar(255) not null, username varchar(255) not null, primary key (id))"; ожидалось "identifier"
+Syntax error in SQL statement "create table [*]user (id bigint not null, email varchar(255) not null, password varchar(255) not null, username varchar(255) not null, primary key (id))"; expected "identifier"; SQL statement:
+create table user (id bigint not null, email varchar(255) not null, password varchar(255) not null, username varchar(255) not null, primary key (id)) [42001-224]
+2024-12-13 17:32:46.968693+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "create table [*]user (id bigint not null, email varchar(255) not null, password varchar(255) not null, username varchar(255) not null, primary key (id))"; ожидалось "identifier"
+Syntax error in SQL statement "create table [*]user (id bigint not null, email varchar(255) not null, password varchar(255) not null, username varchar(255) not null, primary key (id))"; expected "identifier"; SQL statement:
+create table user (id bigint not null, email varchar(255) not null, password varchar(255) not null, username varchar(255) not null, primary key (id)) [42001-224]
+2024-12-13 17:35:52.225266+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "create table [*]user (id bigint not null, email varchar(255) not null, password varchar(255) not null, username varchar(255) not null, primary key (id))"; ожидалось "identifier"
+Syntax error in SQL statement "create table [*]user (id bigint not null, email varchar(255) not null, password varchar(255) not null, username varchar(255) not null, primary key (id))"; expected "identifier"; SQL statement:
+create table user (id bigint not null, email varchar(255) not null, password varchar(255) not null, username varchar(255) not null, primary key (id)) [42001-224]
+2024-12-13 17:43:20.995974+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "create table [*]user (id bigint not null, email varchar(255) not null, password varchar(255) not null, username varchar(255) not null, primary key (id))"; ожидалось "identifier"
+Syntax error in SQL statement "create table [*]user (id bigint not null, email varchar(255) not null, password varchar(255) not null, username varchar(255) not null, primary key (id))"; expected "identifier"; SQL statement:
+create table user (id bigint not null, email varchar(255) not null, password varchar(255) not null, username varchar(255) not null, primary key (id)) [42001-224]
+2024-12-13 17:44:08.117337+01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "create table [*]user (id bigint not null, email varchar(255) not null, password varchar(255) not null, username varchar(255) not null, primary key (id))"; ожидалось "identifier"
+Syntax error in SQL statement "create table [*]user (id bigint not null, email varchar(255) not null, password varchar(255) not null, username varchar(255) not null, primary key (id))"; expected "identifier"; SQL statement:
+create table user (id bigint not null, email varchar(255) not null, password varchar(255) not null, username varchar(255) not null, primary key (id)) [42001-224]
