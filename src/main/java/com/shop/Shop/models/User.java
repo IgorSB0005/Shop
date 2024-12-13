@@ -20,12 +20,22 @@ public class User {
     @Email(message = "Email is not correct")
     @NotBlank(message = "Email cannot be empty")
     private String email;
+    private String role;
 
-    public User(Long id, String name, String email, String password) {
+    public User(Long id, String name, String email, String password, String role) {
         this.id = id;
         this.username = name;
         this.email = email;
         this.password = password;
+        this.role = role;
+    }
+
+    public String getRole() {
+        return role;
+    }
+
+    public void setRole(String role) {
+        this.role = role;
     }
 
     public Long getId() {
