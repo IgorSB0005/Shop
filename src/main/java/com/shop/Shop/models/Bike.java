@@ -19,6 +19,8 @@ public class Bike {
         this.description = description;
     }
 
+    public Bike() {}
+
     public long getId() {
         return id;
     }

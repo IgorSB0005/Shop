@@ -8,10 +8,10 @@ import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
 
 @Entity
-public class User {
+public class Users {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @NotBlank(message = "Username cannot be empty")
     private String username;
@@ -22,13 +22,15 @@ public class User {
     private String email;
     private String role;
 
-    public User(Long id, String name, String email, String password, String role) {
+    public Users(Long id, String username, String email, String password, String role) {
         this.id = id;
-        this.username = name;
+        this.username = username;
         this.email = email;
         this.password = password;
         this.role = role;
     }
+
+    public Users(){}
 
     public String getRole() {
         return role;
